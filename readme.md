@@ -13,6 +13,29 @@ Bu proje, standart bir borsa takip uygulamasının ötesine geçerek, **Python t
 
 Sistem, anlık piyasa verilerini toplar, **özel geliştirilmiş matematiksel formüllerle** işler ve kullanıcıya hem web hem de mobil ortamda "Al/Sat" sinyalleri, piyasa yorumları ve trend analizleri sunar.
 
+---
+
+## 📸 Ekran Görüntüleri (Arayüz & Özellikler)
+
+Uygulamanın mobil (React Native) arayüzünden kesitler:
+
+| 🔐 Giriş & Güvenlik | 🏠 Ana Menü & Navigasyon |
+|:---:|:---:|
+| ![Login Ekranı](login.JPG) | ![Ana Menü](main_menu.JPG) |
+| *JWT tabanlı güvenli oturum yönetimi* | *Modüler menü yapısı ve kolay erişim* |
+
+| 📊 Canlı Piyasa Takibi | 🤖 AI Analiz & Yorumlar |
+|:---:|:---:|
+| ![Canlı Piyasa](canli.JPG) | ![Yapay Zeka Analizi](analiz.JPG) |
+| *WebSocket ile anlık veri akışı* | *Python motorundan gelen otomatik yorumlar* |
+
+### 📈 Detaylı Teknik Analiz
+Yapay zeka ve özel formüllerin çıktılarını içeren detay ekranı:
+
+![Detaylı Analiz](analiz2.JPG)
+
+---
+
 ## 🏗️ Mimari ve Teknoloji Yığını
 
 Proje, her biri kendi sorumluluk alanında uzmanlaşmış 3 ana katmandan oluşan bir mikroservis/modüler yapıya sahiptir.
@@ -45,17 +68,10 @@ Kullanıcı deneyimini en üst düzeye çıkaran, platform bağımsız (Cross-pl
 
 ## 🌟 Öne Çıkan Özellikler
 
-### 🤖 AI Destekli Piyasa Yorumları
-Sadece grafikler değil; Python botu anlık verileri yorumlayarak kullanıcının anlayacağı dilde günlük analiz raporları sunar.
-
-### 🧮 Özel Algoritmik Formüller
-Hazır kütüphaneler yerine, projenin dinamiğine uygun olarak geliştirilmiş matematiksel modeller ile coinlerin potansiyel hareketleri önceden hesaplanır.
-
-### 📲 Tam Entegre Mobil Deneyim
-React Native ile geliştirilen mobil uygulama, web paneli ile %100 senkronize çalışır. Bildirimler ve portföy takibi cepten yönetilir.
-
-### 🔄 Optimize Edilmiş State Yönetimi (RTK)
-Redux Toolkit'in modern "Slice" mimarisi kullanılarak, karmaşık borsa verileri (Order book, Trade history) performanstan ödün vermeden yönetilir.
+* **🤖 AI Destekli Piyasa Yorumları:** Sadece grafikler değil; Python botu anlık verileri yorumlayarak kullanıcının anlayacağı dilde günlük analiz raporları sunar.
+* **🧮 Özel Algoritmik Formüller:** Hazır kütüphaneler yerine, projenin dinamiğine uygun olarak geliştirilmiş matematiksel modeller ile coinlerin potansiyel hareketleri önceden hesaplanır.
+* **📲 Tam Entegre Mobil Deneyim:** React Native ile geliştirilen mobil uygulama, web paneli ile %100 senkronize çalışır.
+* **🔄 Optimize Edilmiş State Yönetimi (RTK):** Redux Toolkit'in modern "Slice" mimarisi kullanılarak, karmaşık borsa verileri performanstan ödün vermeden yönetilir.
 
 ---
 
